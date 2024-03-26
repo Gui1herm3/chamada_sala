@@ -1,4 +1,15 @@
-NSERT INTO Alunos (ID, nome, sobrenome, idade)
+CREATE DATABASE AlunosSala;
+
+USE AlunosSala;
+
+CREATE alunos (
+  ID int,
+  nome varchar(255),
+  sobrenome varchar(255),
+  idade varchar(255)
+  );
+
+INSERT INTO Alunos (ID, nome, sobrenome, idade)
 VALUES
 (1, 'Adrielly', 'Inocencio', 17),
 (2, 'Andrey', 'Sousa Tristão', 17),
